@@ -4,11 +4,17 @@ specifically targeting decision-makers' new connections. Based on the 'About Us'
 LinkedIn account. 
 **Code Explanation:
 In the header opart of the script, all the necessary libraries and modules are imported.
+
 The "login" function logs into the LinkedIn account using the username and password. It opens the LinkedIn login page, fills in the login credentials, and clicks the login button.
+
 The "scrape_new_connections" function navigates to the LinkedIn connections page and fetches the names of the new connections of competitor decision-makers. It uses web scraping techniques with BeautifulSoup to extract the required data.
+
 The" scrape_profile" function takes a connection name as input, searches for that connection on LinkedIn, and retrieves their profile information and job description. It uses web scraping techniques with BeautifulSoup to extract the data from the connection's profile page.
+
 The "generate_message" function takes the profile information and job description as input. A small upgradation has been by using the NLP techniques using NLTK to tokenize the sentences, tokenize the words, remove stopwords, calculate word frequencies, and generate a personalized connection request message based on the most frequent keywords. In the main.py the message is simply generated whereas In this updated version, NLTK is imported, and the generate_message function has been modified. It tokenizes the sentences in the profile information and job description, filters out stopwords, calculates word frequencies, and generates a message using the most frequent keywords.
+
 The "send_connection_request" function takes a connection name and a personalized message as input. It searches for the connection on LinkedIn, clicks the "Connect" button, adds a note to the connection request, fills in the personalized message, and sends the connection request.
+
 The main function is the main entry point of the script. It sets the LinkedIn credentials, calls the login function, scrapes the new connections, analyzes the connections' profiles, generates personalized messages, and sends connection requests.
 Lastly, the script executes the main function if it is being run directly.
 
