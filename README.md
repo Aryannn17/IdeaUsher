@@ -1,6 +1,5 @@
 I tried to write a python script for creating an automated system that monitors competitors' LinkedIn activity,
-specifically targeting decision-makers' new connections. Based on the 'About Us' section, job description, or recent posts of these new connections, the automation should generate a hyper-personalized connection request to be sent from an account. For a better personalized message, I've used NLTK(Natural Language Toolkit) in the "generate function" and I've explained all the functions I've created in the script and also mentioned the python libraries used in the script with their respective functions. I hope my efforts land me somewhere in the team. I don't have much hands-on experience but if I get to join as a full time intern, I ensure that I'll be putting all my efforts on the table.
-
+specifically targeting decision-makers' new connections. Based on the 'About Us' section, job description, or recent posts of these new connections, the automation should generate a hyper-personalized connection request to be sent from an account. For a better personalized message, I've used NLTK(Natural Language Toolkit) in the "generate function" and I've explained all the functions I've created in the script and also mentioned the python libraries used in the script with their respective functions. 
 LinkedIn account. 
 **Code Explanation:
 In the header opart of the script, all the necessary libraries and modules are imported.
